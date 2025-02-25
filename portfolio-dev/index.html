@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - KOUGNAGLO Yao Medard</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand animated-text" href="#">KYM-DEV 1.0</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#accueil">Accueil</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#apropos">À propos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#competences">Compétences</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#langages">Langages</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#outils">Outils</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projets">Projets</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Section Accueil -->
+    <section id="accueil" class="hero-section">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center">
+                <div class="col-md-6 text-center text-md-start" data-aos="fade-right">
+                    <h1>KOUGNAGLO Yao Médard</h1>
+                    <p class="lead">Développeur Web & Mobile</p>
+                    <div class="hero-buttons">
+                        <a href="#projets" class="btn btn-primary me-3">Voir mes projets</a>
+                        <a href="#contact" class="btn btn-outline-light">Me contacter</a>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center" data-aos="fade-left">
+                    <div class="profile-image-container">
+                        <img src="./img/profile1.jpeg" alt="KOUGNAGLO Yao Medard" class="profile-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section À propos -->
+    <section id="apropos" class="section-padding">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">À propos de moi</h2>
+            <div class="row align-items-center">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <img src="./img/profile2.jpeg" alt="Photo de profil" class="img-fluid rounded-circle mb-4">
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <h3>Qui suis-je ?</h3>
+                    <p>Développeur passionné spécialisé dans la création d'applications web et mobile. Mon objectif est de créer des solutions numériques innovantes et performantes.</p>
+                    <div class="mt-4">
+                        <a href="./assets/docs/CV_KOUGNAGLO_YAO_MEDARD_DEVELOPPEUR_ANEHO.pdf" class="btn btn-outline-primary me-3" download>
+                            <i class="fas fa-download me-2"></i>Télécharger CV
+                        </a>
+                        <a href="https://www.linkedin.com/in/m%C3%A9dard-yao-kougnaglo-8b0430339?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/Kymedard" class="social-link"><i class="fab fa-github"></i></a>
+                    </div>
+                    <!-- <div class="cv-preview mt-4" data-aos="fade-up">
+                        <h4 class="mb-3">Aperçu du CV</h4>
+                        <div class="cv-card">
+                            <div class="cv-header">
+                                <i class="far fa-file-pdf"></i>
+                                <span>CV_KOUGNAGLO_Yao_Medard.pdf</span>
+                            </div>
+                            <div class="cv-info">
+                                <div class="cv-detail">
+                                    <i class="fas fa-graduation-cap"></i>
+                                    <span>Formation</span>
+                                </div>
+                                <div class="cv-detail">
+                                    <i class="fas fa-briefcase"></i>
+                                    <span>Expérience</span>
+                                </div>
+                                <div class="cv-detail">
+                                    <i class="fas fa-code"></i>
+                                    <span>Compétences</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="competences" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Mes Compétences</h2>
+            <div class="row">
+                <div class="col-md-4 mb-4" data-aos="fade-up">
+                    <div class="skill-card">
+                        <i class="fas fa-code"></i>
+                        <h3>Développement Frontend</h3>
+                        <p>HTML5, CSS3, JavaScript, React, Vue.js</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="skill-card">
+                        <i class="fas fa-server"></i>
+                        <h3>Développement Backend</h3>
+                        <p>Node.js, Python, PHP, SQL, MongoDB</p>
+                    </div>
+                </div>
+                <div class="col-md-4 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="skill-card">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Développement Mobile</h3>
+                        <p>React Native, Flutter, iOS, Android</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Langages -->
+    <section id="langages" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Langages Maîtrisés</h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-6 mb-4" data-aos="flip-up">
+                    <div class="language-card">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                        <h4>JavaScript</h4>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">90%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 mb-4" data-aos="flip-up" data-aos-delay="100">
+                    <div class="language-card">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                        <h4>Python</h4>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 mb-4" data-aos="flip-up" data-aos-delay="200">
+                    <div class="language-card">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP">
+                        <h4>PHP</h4>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-3 col-md-4 col-6 mb-4" data-aos="flip-up" data-aos-delay="300">
+                    <div class="language-card">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+                        <h4>Java</h4>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">75%</div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="col-lg-3 col-md-4 col-6 mb-4" data-aos="flip-up" data-aos-delay="400">
+                    <div class="language-card">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript">
+                        <h4>TypeScript</h4>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">85%</div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="col-lg-3 col-md-4 col-6 mb-4" data-aos="flip-up" data-aos-delay="500">
+                    <div class="language-card">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" alt="C#">
+                        <h4>C#</h4>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="col-lg-3 col-md-4 col-6 mb-4" data-aos="flip-up" data-aos-delay="600">
+                    <div class="language-card">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ruby/ruby-original.svg" alt="Ruby">
+                        <h4>Ruby</h4>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100">65%</div>
+                        </div>
+                    </div>
+                </div> -->
+                <!-- <div class="col-lg-3 col-md-4 col-6 mb-4" data-aos="flip-up" data-aos-delay="700">
+                    <div class="language-card">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/go/go-original.svg" alt="Go">
+                        <h4>Go</h4>
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Outils Technologiques -->
+    <section id="outils" class="section-padding">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Les Outils Technologiques</h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-6 mb-4" data-aos="zoom-in">
+                    <div class="tool-card">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code">
+                        <h4>VS Code</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 mb-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="tool-card">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+                        <h4>Git</h4>
+                    </div>
+                </div>
+                <!-- <div class="col-lg-3 col-md-4 col-6 mb-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="tool-card">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" alt="Laravel">
+                        <h4>Laravel</h4>
+                    </div>
+                </div> -->
+                <div class="col-lg-3 col-md-4 col-6 mb-4" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="tool-card">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma">
+                        <h4>Figma</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 mb-4" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="tool-card">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+                        <h4>Node.js</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 mb-4" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="tool-card">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+                        <h4>MySQL</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 mb-4" data-aos="zoom-in" data-aos-delay="600">
+                    <div class="tool-card">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB">
+                        <h4>MongoDB</h4>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-6 mb-4" data-aos="zoom-in" data-aos-delay="700">
+                    <div class="tool-card">
+                        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+                        <h4>React</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projets" class="section-padding">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Mes Projets</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up">
+                    <div class="project-card">
+                        <img src="./img/project1.jfif" alt="Projet 1" class="img-fluid">
+                        <div class="project-info">
+                            <h3>Projet 1</h3>
+                            <p>Application Web</p>
+                            <a href="#" class="btn btn-primary">Voir détails</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-card">
+                        <img src="./img/project2.jfif" alt="Projet 2" class="img-fluid">
+                        <div class="project-info">
+                            <h3>Projet 2</h3>
+                            <p>Application Mobile</p>
+                            <a href="#" class="btn btn-primary">Voir détails</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-card">
+                        <img src="./img/projet3.jfif" alt="Projet 3" class="img-fluid">
+                        <div class="project-info">
+                            <h3>Projet 3</h3>
+                            <p>Site Web</p>
+                            <a href="#" class="btn btn-primary">Voir détails</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-card">
+                        <img src="./img/projet4.jfif" alt="Projet 4" class="img-fluid">
+                        <div class="project-info">
+                            <h3>Projet 4</h3>
+                            <p>Site Web</p>
+                            <a href="#" class="btn btn-primary">Voir détails</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-card">
+                        <img src="./img/project5.jfif" alt="Projet 5" class="img-fluid">
+                        <div class="project-info">
+                            <h3>Projet 5</h3>
+                            <p>Site Web</p>
+                            <a href="#" class="btn btn-primary">Voir détails</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="project-card">
+                        <img src="./img/project6.jfif" alt="Projet 6" class="img-fluid">
+                        <div class="project-info">
+                            <h3>Projet 6</h3>
+                            <p>Site Web</p>
+                            <a href="#" class="btn btn-primary">Voir détails</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="section-padding bg-light">
+        <div class="container">
+            <h2 class="text-center mb-5" data-aos="fade-up">Me Contacter</h2>
+            <div class="row">
+                <div class="col-lg-5 mb-4" data-aos="fade-right">
+                    <div class="contact-info">
+                        <h3 class="mb-4">Informations de Contact</h3>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>medardkougnaglo@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Téléphone</h4>
+                                <p>+228 97 13 14 65</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Localisation</h4>
+                                <p>Lomé, TOGO</p>
+                            </div>
+                        </div>
+                        <div class="social-links mt-4">
+                            <a href="https://www.linkedin.com/in/m%C3%A9dard-yao-kougnaglo-8b0430339?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="social-link" title="LinkedIn">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                            <a href="https://github.com/Kymedard" class="social-link" title="GitHub">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="social-link" title="Twitter">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#" class="social-link" title="Instagram">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7" data-aos="fade-left">
+                    <div class="contact-form-wrapper">
+                        <h3 class="mb-4">Envoyez-moi un message</h3>
+                        <form id="contact-form" class="contact-form">
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-group">
+                                        <label for="name">Nom complet</label>
+                                        <input type="text" class="form-control" id="name" placeholder="Votre nom" required>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-group">
+                                        <label for="email">Email</label>
+                                        <input type="email" class="form-control" id="email" placeholder="Votre email" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label for="subject">Sujet</label>
+                                <input type="text" class="form-control" id="subject" placeholder="Sujet de votre message" required>
+                            </div>
+                            <div class="form-group mb-4">
+                                <label for="message">Message</label>
+                                <textarea class="form-control" id="message" rows="5" placeholder="Votre message" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary btn-block">
+                                <i class="fas fa-paper-plane me-2"></i>Envoyer le message
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center py-4">
+        <div class="container">
+            <p class="mb-0">&copy; 2025 KOUGNAGLO Yao Medard. Tous droits réservés.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

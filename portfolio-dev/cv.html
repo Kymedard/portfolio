@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - KOUGNAGLO Yao Medard</title>
+    <style>
+        :root {
+            --primary-color: #007bff;
+            --secondary-color: #6c757d;
+            --dark-color: #343a40;
+            --light-color: #f8f9fa;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: var(--dark-color);
+            padding: 2rem;
+            max-width: 210mm;
+            margin: 0 auto;
+            background: white;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 2rem;
+            border-bottom: 2px solid var(--primary-color);
+            padding-bottom: 1rem;
+        }
+
+        .header h1 {
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .contact-info {
+            font-size: 0.9rem;
+            color: var(--secondary-color);
+        }
+
+        .section {
+            margin-bottom: 2rem;
+        }
+
+        .section-title {
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+            font-size: 1.2rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .experience-item, .education-item {
+            margin-bottom: 1.5rem;
+        }
+
+        .experience-item h3, .education-item h3 {
+            color: var(--dark-color);
+            margin-bottom: 0.25rem;
+        }
+
+        .date {
+            color: var(--secondary-color);
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        .skill-category {
+            margin-bottom: 1rem;
+        }
+
+        .skill-category h4 {
+            color: var(--dark-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .skill-list {
+            list-style: none;
+        }
+
+        .skill-list li {
+            margin-bottom: 0.25rem;
+            color: var(--secondary-color);
+        }
+
+        @media print {
+            body {
+                padding: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>KOUGNAGLO Yao Medard</h1>
+        <div class="contact-info">
+            <p>Paris, France | +33 6 XX XX XX XX | medard.kougnaglo@example.com</p>
+            <p>LinkedIn: linkedin.com/in/medard-kougnaglo | GitHub: github.com/medard-dev</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Formation</h2>
+        <div class="education-item">
+            <h3>Master en Développement Web et Mobile</h3>
+            <div class="date">2020 - 2022</div>
+            <p>École Supérieure d'Informatique, Paris</p>
+        </div>
+        <div class="education-item">
+            <h3>Licence en Informatique</h3>
+            <div class="date">2017 - 2020</div>
+            <p>Université de Paris</p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Expérience Professionnelle</h2>
+        <div class="experience-item">
+            <h3>Développeur Full Stack Senior</h3>
+            <div class="date">2022 - Présent</div>
+            <p>TechCorp Solutions, Paris</p>
+            <ul>
+                <li>Développement d'applications web et mobiles</li>
+                <li>Lead technique sur plusieurs projets majeurs</li>
+                <li>Formation des développeurs juniors</li>
+            </ul>
+        </div>
+        <div class="experience-item">
+            <h3>Développeur Web</h3>
+            <div class="date">2020 - 2022</div>
+            <p>WebDev Agency, Paris</p>
+            <ul>
+                <li>Création de sites web responsifs</li>
+                <li>Intégration d'APIs et développement backend</li>
+                <li>Optimisation des performances</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Compétences Techniques</h2>
+        <div class="skills-grid">
+            <div class="skill-category">
+                <h4>Langages de Programmation</h4>
+                <ul class="skill-list">
+                    <li>JavaScript (ES6+)</li>
+                    <li>Python</li>
+                    <li>PHP</li>
+                    <li>Java</li>
+                    <li>TypeScript</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h4>Frontend</h4>
+                <ul class="skill-list">
+                    <li>React.js</li>
+                    <li>Vue.js</li>
+                    <li>HTML5/CSS3</li>
+                    <li>Bootstrap</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h4>Backend</h4>
+                <ul class="skill-list">
+                    <li>Node.js</li>
+                    <li>Express.js</li>
+                    <li>Django</li>
+                    <li>Laravel</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h4>Base de données & Outils</h4>
+                <ul class="skill-list">
+                    <li>MySQL</li>
+                    <li>MongoDB</li>
+                    <li>Git</li>
+                    <li>Docker</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <h2 class="section-title">Langues</h2>
+        <ul class="skill-list">
+            <li>Français (Natif)</li>
+            <li>Anglais (Professionnel)</li>
+            <li>Espagnol (Intermédiaire)</li>
+        </ul>
+    </div>
+</body>
+</html>
